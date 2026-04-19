@@ -2,6 +2,8 @@
 
 Lately a batch of TX486SLC have appeared in AliExpress. These are clones of the Cyrix 486SL/C that are really good for upgrading very old 386SX motherboards, and as I have one of these laying around I decided to get a couple of them just to test if they were even real.
 
+![TX_IMG](https://github.com/gusmanb/TX486SLC_Software_And_Info/blob/main/Docs/TX486SLCpng.png?raw=true)
+
 It happens that they are, they seem to be NOS, not sure where they come from but they are 100% legit.
 
 After replacing the CPU on my board I found that all the software laying around is for the Cyrix and that it does not work at all with the TX, so after getting the manual of these CPUs I made my own software to be able to configure the internal cache (this is the biggest improvement against the 386SX) and also implemented all the required mods to get it working at maximum speed.
