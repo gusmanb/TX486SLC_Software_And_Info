@@ -20,6 +20,7 @@ The full list of options is this:
 
 
 * CCR0 settings
+  
 |Switch|Action|
 |-|-|
 |/M|Disable caching of 1MB boundaries (64KB)|
@@ -32,6 +33,7 @@ The full list of options is this:
 |/S|Enable suspend signals|
 
 * CCR1 settings
+  
 |Switch|Action|
 |-|-|
 |/C|Enable caching of shadow BIOS area (C0000h)|
@@ -55,6 +57,11 @@ This is the part that took me most time, to understand what and how to properly 
 In my case, the original 386SX/20 was able to reach around 6FPS in Superscape 3DBench and clocked like an AT machine at 30Mhz in Landmark. With the new CPU, no mods and the cache using BARB and NC0 it got 9FPS and clocked like a 44Mhz AT machine. With the full mods the numbers skyrocket, it got to 14FPS and clocked like a 104Mhz machine!
 
 So, what do these mods and how to install them?
+
+This is the full schematic, but please, read the next sections to understand why and how to apply these.
+![Schematic](https://github.com/gusmanb/TX486SLC_Software_And_Info/blob/main/Docs/Mods%20Schematic.png?raw=true)
+
+The NAND gates are a single 74LS00, two of the four gates are used (remeber also to power it!)
 
 ### The /FLUSH mod
 
